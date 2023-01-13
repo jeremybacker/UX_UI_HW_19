@@ -1,0 +1,235 @@
+
+.inline-block {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo {
+    width: 23%;
+    height: 100px;
+    padding: 1%;
+}
+
+.logo img {
+    height: 75%;
+    margin: 10px;
+    width: 0 auto;
+}
+
+.navigation {
+    background-color: #3CA6A6;
+}
+
+nav {
+    width: 72%;
+    padding: 1%;
+    color:#012E40;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 18px;
+    /* font-weight: 900; */
+    word-spacing: 20px;
+    text-align: right;
+    align-content: center;
+}
+
+body {
+    display: block;
+    margin: auto;
+}
+
+/* <!-- Typography --> */
+
+h1 {
+    text-align: center;
+    font-family: 'Paytone One', sans-serif;    
+    font-weight: 800;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Paytone One', sans-serif;    
+    font-weight: 800;
+}
+
+h3 {
+    text-align: left;
+    font-family: 'Paytone One', sans-serif;    
+    font-weight: 600;
+}
+
+.myWork h3 {
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
+
+h5 {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 24px;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+/* <!-- End Typography --> */
+
+ul {
+    margin-left: auto;
+    list-style: none;
+}
+
+.heroImg {
+    background-color: #3CA6A6;
+    padding: 25px;
+    overflow: auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
+    font-family: 'Paytone One', sans-serif;
+    color: #012E40;
+}
+
+.content h5 {
+    float: right;
+    font-size: 35px;
+}
+
+.content img {
+    width: 45%;
+    padding-right: 12px;
+}
+
+.aboutMe {
+    /* min-height: 350px ; */
+    padding: 12px;
+    color: #F2E3D5;
+    background-image: url("https://github.com/jeremybacker/UX_UI_HW_18/blob/main/assets/images/ABOUT%20ME.png?raw=true");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* .aboutMe img {
+    width: 100%;
+} */
+
+button {
+    background-color:#012E40;
+    color:#F2E3D5;
+    padding: 12px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+footer ul {
+    width: 100%;
+    display: flex;
+    vertical-align: top;
+    font-family: 'Paytone One', sans-serif;
+    justify-content: center;
+    padding: 0 auto;
+}
+
+footer li {
+    margin: 0 25px;
+}
+
+footer {
+    background-color:#012E40;
+    padding: 25px;
+    color: aquamarine;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexContainer img {
+    width: 100%;
+    box-shadow: 0px 2px 5px 2px #000000;
+}
+
+.mySkills {
+    background-color:#F2E3D5;
+    padding: 12px;
+    color:#012E40
+}
+
+.mySkills img {
+    border-radius: 4px;
+}
+
+#skill  {
+    width: 33%;
+    margin: 12px;
+}
+
+.myWork {
+    background-color: #012E40;
+    padding: 12px;
+    color: #F2E3D5;
+}
+
+.myWork h1 {
+    color: #F2E3D5;
+}
+
+.myWork button {
+    background-color: #3CA6A6;
+    color: #012E40;
+    float: right;
+    font-family: 'Paytone One', sans-serif;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: 33% 66%;
+    grid-template-rows: 350px 350px 350px;
+    grid-template-areas:
+    "img1 content1"
+    "img2 content2"
+    "img3 content3";
+  }
+
+  .workGrid img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .img1 {
+    grid-area: img1;
+  }
+
+  .img2 {
+    grid-area: img2;
+  }
+  
+  .img3 {
+    grid-area: img3;
+  }
+  
+.content1, .content2, .content3 {
+    padding: 12px;
+  }
+  
+  .content1 {
+    grid-area: content1;
+  }
+  
+  .content2 {
+    grid-area: content2;
+  }
+  
+  .content3 {
+    grid-area: content3;
+  }
